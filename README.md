@@ -1,1 +1,3 @@
-# GoScan App Website
+# GoScan
+
+## Web Application
