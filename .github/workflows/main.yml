@@ -31,18 +31,11 @@ jobs:
       - run: npm install
 
       - uses: bahmutov/npm-install@v1
-        with:
-          working-directory: frontend
-          install-command: yarn --frozen-lockfile --silent --ignore-engines
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-
-      - name: Install dependencies (frontend)
-        working-directory: ./frontend
-        run: yarn --ignore-engines
 
       - name: Build project
         run: npm run build
