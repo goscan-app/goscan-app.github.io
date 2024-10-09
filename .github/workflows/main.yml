@@ -18,7 +18,7 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v4
+        uses: bahmutov/npm-install@v1
 
       - name: Checkout repo (v2)
         uses: actions/checkout@v2
