@@ -1,3 +1,3 @@
-# GoScan
+## GoScan
 
-## Web Application
+### Web Application
