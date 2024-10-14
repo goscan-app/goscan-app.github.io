@@ -1,97 +1,64 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #fff;
-  color: #333;
-  line-height: 1.6;
-}
-
-/* Navbar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #fff;
-  border-bottom: 2px solid black;
-}
-
-.logo {
-  color: red;
-  font-size: 24px;
-  font-weight: bold;
-  .goscan::first-letter {
-    text-transform: uppercase;
-}
-
-.goscan {
-    text-transform: lowercase;
-}
-}
-
-.navbar nav a {
-  color: red;
-  text-decoration: none;
-  margin-left: 20px;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-/* Hero Section */
-.hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* Vision & Mission Section */
+.vision-mission {
   padding: 50px;
-  background-color: #f9f9f9;
+  background-color: #f1f1f1;
   text-align: center;
 }
 
-.hero-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  max-width: 1200px;
-  width: 100%;
-}
-
-.hero-text h1 {
-  font-size: 48px;
+.vision-mission h2 {
+  font-size: 36px;
   color: #333;
 }
 
-.hero-text p {
+.vision-mission p {
   font-size: 18px;
   margin-top: 20px;
-  max-width: 600px;
+  color: #555;
 }
 
-.highlight {
-  color: red;
-  text-decoration: underline;
+/* Our Approach Section */
+.approach {
+  padding: 50px;
+  background-color: #fff;
+  text-align: center;
 }
 
-.hero-image img {
-  max-width: 400px;
-  margin-left: 20px;
+.approach h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.approach p {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #555;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 50px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.testimonials p {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #555;
 }
 
 /* Footer */
-.footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #fff;
-  border-top: 1px solid #ccc;
-  margin-top: 50px;
-}
-
 .footer p {
   font-size: 14px;
   color: #666;
+}
+
+.footer a {
+  color: red;
+  text-decoration: none;
 }
