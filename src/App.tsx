@@ -1,5 +1,5 @@
 import './App.css';
-import visionMissionImage from './Assets/Vision.gif';  // Correct image import
+import visionMissionImage from '/Assets/Vision.gif';  // Correct image import
 
 function App() {
   return (
