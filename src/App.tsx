@@ -1,4 +1,4 @@
-import './App.css'
+import './App.css';
 
 function App() {
   return (
@@ -18,24 +18,25 @@ function App() {
 
       {/* Hero Section */}
       <section className="hero">
-        <div className="hero-text">
-          <h1>Hey, We're GoScan</h1>
-          <p>
-            Transforming the in-person shopping experience with real-time AI-powered analytics for seamless and secure checkout.
-          </p>
-        </div>
-        <div className="hero-image">
-          <img src="https://goscan-app.github.io/src/Assets/cart.gif" alt="Shopping Cart" />
+        <div className="hero-content">
+          <div className="hero-text">
+            <h1>Hey, We're <span className="highlight">GoScan</span></h1>
+            <p>
+              Transforming the in-person shopping experience with real-time AI-powered analytics for seamless and secure checkout.
+            </p>
+          </div>
+          <div className="hero-image">
+            <img src="https://goscan-app.github.io/src/Assets/cart.gif" alt="Shopping Cart" />
+          </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer>
+      <footer className="footer">
         <p>© 2024 GoScan. All Rights Reserved.</p>
       </footer>
     </>
   );
 }
 
-
-export default App
+export default App;
