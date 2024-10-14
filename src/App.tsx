@@ -1,4 +1,5 @@
 import './App.css';
+import visionMissionImage from './path_to_image_folder/image.png'; // Update the path to where your image is located
 
 function App() {
   return (
@@ -29,6 +30,11 @@ function App() {
             <img src="/src/Assets/cart.gif" alt="Shopping Cart" />
           </div>
         </div>
+      </section>
+
+      {/* Vision and Mission Section */}
+      <section className="vision-mission">
+        <img src={visionMissionImage} alt="Vision and Mission" className="vision-mission-image" />
       </section>
 
       {/* Footer */}
