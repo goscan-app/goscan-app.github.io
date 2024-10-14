@@ -26,7 +26,7 @@ function App() {
             </p>
           </div>
           <div className="hero-image">
-            <img src="https://goscan-app.github.io/src/Assets/cart.gif" alt="Shopping Cart" />
+            <img src="/src/Assets/cart.gif" alt="Shopping Cart" />
           </div>
         </div>
       </section>
