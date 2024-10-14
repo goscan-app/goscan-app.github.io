@@ -1,5 +1,4 @@
 import './App.css';
-import visionMissionImage from '/src/Assets/Vision.gif';  // Correct image import
 
 function App() {
   return (
@@ -30,11 +29,6 @@ function App() {
             <img src="/src/Assets/cart.gif" alt="Shopping Cart" />
           </div>
         </div>
-      </section>
-
-      {/* Vision and Mission Section */}
-      <section className="vision-mission">
-        <img src={visionMissionImage} alt="Vision and Mission" className="vision-mission-image" />
       </section>
 
       {/* Footer */}
