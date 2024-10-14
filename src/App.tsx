@@ -1,5 +1,5 @@
 import './App.css';
-import visionMissionImage from './Assets/Vision.gif'; // Update the path to where your image is located
+import visionMissionImage from './src/Assets/Vision.gif'; // Update the path to where your image is located
 
 function App() {
   return (
