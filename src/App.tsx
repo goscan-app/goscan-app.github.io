@@ -1,7 +1,6 @@
 import './App.css'
 
 function App() {
-  return{
   return (
     <>
       {/* Navbar */}
@@ -26,7 +25,7 @@ function App() {
           </p>
         </div>
         <div className="hero-image">
-          <img src="your-image-url-here" alt="Shopping Cart" />
+          <img src="https://goscan-app.github.io/src/Assets/cart.gif" alt="Shopping Cart" />
         </div>
       </section>
 
