@@ -18,14 +18,17 @@ function App() {
 
       {/* Hero Section */}
       <section className="hero">
-        <div className="hero-text">
-          <h1>Hey, We're GoScan</h1>
-          <p>
-            We aim to transform the in-person shopping experience and real-time store management by utilizing AI-powered analytics to boost user engagement, deliver meaningful insights,  and ensure a secure,  seamless checkout process.
-          </p>
-        </div>
-        <div className="hero-image">
-          <img src="https://goscan-app.github.io/src/Assets/cart.gif" alt="Shopping Cart" />
+        <div className="hero-content">
+          <div className="hero-text">
+            <h1>Welcome to GoScan</h1>
+            <p>
+              Revolutionizing in-person shopping with real-time AI-powered analytics for a seamless and secure checkout experience.
+            </p>
+            <button className="cta-button">Get Started</button>
+          </div>
+          <div className="hero-image">
+            <img src="https://goscan-app.github.io/src/Assets/cart.gif" alt="Shopping Cart" />
+          </div>
         </div>
       </section>
 
