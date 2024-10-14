@@ -1,5 +1,5 @@
 import './App.css';
-import visionMissionImage from './src/Assets/Vision.gif'; // Update the path to where your image is located
+import visionMissionImage from './Assets/Vision.gif';  // Correct image import
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
             </p>
           </div>
           <div className="hero-image">
-            <img src="./src/Assets/cart.gif" alt="Shopping Cart" />
+            <img src="/src/Assets/cart.gif" alt="Shopping Cart" />
           </div>
         </div>
       </section>
