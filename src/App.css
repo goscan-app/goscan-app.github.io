@@ -25,7 +25,13 @@ body {
   color: red;
   font-size: 24px;
   font-weight: bold;
-  text-transform: uppercase;
+  .goscan::first-letter {
+    text-transform: uppercase;
+}
+
+.goscan {
+    text-transform: lowercase;
+}
 }
 
 .navbar nav a {
