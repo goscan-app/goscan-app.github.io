@@ -21,7 +21,7 @@ function App() {
         <div className="hero-text">
           <h1>Hey, We're GoScan</h1>
           <p>
-            Transforming the in-person shopping experience with real-time AI-powered analytics for seamless and secure checkout.
+            We aim to transform the in-person shopping experience and real-time store management by utilizing AI-powered analytics to boost user engagement, deliver meaningful insights,  and ensure a secure,  seamless checkout process.
           </p>
         </div>
         <div className="hero-image">
