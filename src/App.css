@@ -1,64 +1,133 @@
-/* Vision & Mission Section */
-.vision-mission {
-  padding: 50px;
-  background-color: #f1f1f1;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.vision-mission h2 {
-  font-size: 36px;
-  color: #333;
+body {
+  font-family: Arial, sans-serif;
 }
 
-.vision-mission p {
-  font-size: 18px;
-  margin-top: 20px;
-  color: #555;
+.app-container {
+  width: 100%;
+  padding: 20px;
 }
 
-/* Our Approach Section */
-.approach {
-  padding: 50px;
-  background-color: #fff;
-  text-align: center;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
 }
 
-.approach h2 {
-  font-size: 36px;
-  color: #333;
-}
-
-.approach p {
-  font-size: 18px;
-  margin-top: 20px;
-  color: #555;
-}
-
-/* Testimonials Section */
-.testimonials {
-  padding: 50px;
-  background-color: #f1f1f1;
-  text-align: center;
-}
-
-.testimonials h2 {
-  font-size: 36px;
-  color: #333;
-}
-
-.testimonials p {
-  font-size: 18px;
-  margin-top: 20px;
-  color: #555;
-}
-
-/* Footer */
-.footer p {
-  font-size: 14px;
-  color: #666;
-}
-
-.footer a {
+.header h1 {
   color: red;
-  text-decoration: none;
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+nav ul li {
+  cursor: pointer;
+  color: #333;
+}
+
+.intro-section {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.intro-section h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.intro-section p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.intro-section input {
+  padding: 10px;
+  width: 50%;
+}
+
+.vision-mission {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.vision, .mission {
+  width: 45%;
+}
+
+.vision h3, .mission h3 {
+  font-size: 24px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.vision p, .mission p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.approach {
+  margin: 50px 0;
+}
+
+.approach h3 {
+  font-size: 24px;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.approach ul {
+  list-style: none;
+}
+
+.approach ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.clients {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.clients h3 {
+  font-size: 24px;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.clients .testimonial {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.faq {
+  margin: 50px 0;
+}
+
+.faq h3 {
+  font-size: 24px;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.faq ul {
+  list-style: none;
+}
+
+.faq ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
