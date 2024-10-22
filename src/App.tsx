@@ -1,99 +1,78 @@
+import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'; // Import React Router
 
-function App() {
+const App: React.FC = () => {
   return (
-    <Router>
-      <>
-        {/* Navbar */}
-        <header className="navbar">
-          <div className="logo">GoScan</div>
-          <nav>
-            <Link to="/">Home</Link>
-            <Link to="/platform">Cloud Platform</Link>
-            <Link to="/security">Security</Link>
-            <Link to="/features">Features</Link>
-            <Link to="/team">Team</Link>
-            <Link to="/login">Login</Link>
-          </nav>
-        </header>
+    <div className="app-container">
+      {/* Header Section */}
+      <header className="header">
+        <h1>GoScan</h1>
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>Unified Cloud Platform</li>
+            <li>Dual Camera Security</li>
+            <li>Analytics & Features</li>
+            <li>Interactive Avatar</li>
+            <li>Dashboard</li>
+            <li>Team</li>
+            <li>Login</li>
+          </ul>
+        </nav>
+      </header>
 
-        {/* Routes for different pages */}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/platform" element={<Platform />} />
-          <Route path="/security" element={<Security />} />
-          <Route path="/features" element={<Features />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/login" element={<Login />} />
-        </Routes>
-      </>
-    </Router>
-  );
-}
+      {/* Main Intro Section */}
+      <section className="intro-section">
+        <h2>Hey, We’re GoScan</h2>
+        <p>
+          We aim to transform the in-person shopping experience and real-time store management by utilizing AI-powered analytics to boost user engagement, deliver meaningful insights, and ensure a secure, seamless checkout process.
+        </p>
+        <input type="text" placeholder="Search" />
+      </section>
 
-function Home() {
-  return (
-    <>
-      {/* Hero Section */}
-      <section className="hero">
-        <div className="hero-content">
-          <div className="hero-text">
-            <h1>Hey, We're <span className="highlight">GoScan</span></h1>
-            <p>Transforming the in-person shopping experience with real-time AI-powered analytics for seamless and secure checkout.</p>
-          </div>
-          <div className="hero-image">
-            <img src="/src/Assets/cart.gif" alt="Shopping Cart" />
-          </div>
+      {/* Vision & Mission Section */}
+      <section className="vision-mission">
+        <div className="vision">
+          <h3>Our Vision</h3>
+          <p>To redefine the in-store shopping experience by seamlessly blending technology and personalization, empowering users with a smart, intuitive platform that enhances convenience, engagement, and satisfaction.</p>
+        </div>
+        <div className="mission">
+          <h3>Our Mission</h3>
+          <p>To create a groundbreaking retail ecosystem that leverages advanced technologies, such as dual-camera interaction and personalized avatars, to provide users with a secure, efficient, and interactive shopping experience, while offering retailers innovative tools to better connect with their customers.</p>
         </div>
       </section>
 
-      {/* Vision and Mission Section */}
-      <section className="vision-mission">
-        <h2>Our Vision & Mission</h2>
-        <p>We aim to revolutionize retail with AI-driven technology that provides customers a seamless, secure, and fast shopping experience.</p>
-      </section>
-
-      {/* Our Approach Section */}
+      {/* Approach Section */}
       <section className="approach">
-        <h2>Our Approach</h2>
-        <p>We integrate cutting-edge AI with real-time analytics to create an innovative, user-friendly platform, ensuring security and efficiency.</p>
+        <h3>Our Approach</h3>
+        <ul>
+          <li>Unified Cloud Platform</li>
+          <li>Dual Camera Security</li>
+          <li>Real-Time User and Store Data Analytics</li>
+          <li>Interactive Avatar based Shopping Assistant</li>
+        </ul>
       </section>
 
-      {/* What Clients are Saying */}
-      <section className="testimonials">
-        <h2>What Clients Are Saying</h2>
-        <p>“GoScan has transformed the way our customers shop, making the checkout process faster and more secure than ever before.” - Retail Partner</p>
+      {/* Clients Section */}
+      <section className="clients">
+        <h3>What Clients are Saying</h3>
+        <div className="testimonial">
+          <p>"We understand the changing landscape of retail and the growing demand for convenience, speed, and personalization. After evaluating GoScan’s features, including instant product scanning, integrated verified digital ID, and advanced AI-driven analytics, we are confident that integrating GoScan into our existing retail operations will significantly enhance our customers' experience."</p>
+          <p><strong>Satyan K N, CEO & MD, Sindhoor Textiles, India</strong></p>
+        </div>
       </section>
 
-      {/* Footer */}
-      <footer className="footer">
-        <p>© 2024 GoScan. All Rights Reserved.</p>
-        <p>Contact us: contact@goscan.com</p>
-        <p>Connect with us on <a href="#">LinkedIn</a>, <a href="#">Twitter</a>, <a href="#">Facebook</a></p>
-      </footer>
-    </>
+      {/* FAQ Section */}
+      <section className="faq">
+        <h3>FAQ</h3>
+        <ul>
+          <li>How Do We Begin?</li>
+          <li>What Are My Prices?</li>
+          <li>How Long Does an Engagement Last?</li>
+        </ul>
+      </section>
+    </div>
   );
-}
-
-function Platform() {
-  return <h1>Cloud Platform Page</h1>;
-}
-
-function Security() {
-  return <h1>Security Page</h1>;
-}
-
-function Features() {
-  return <h1>Features Page</h1>;
-}
-
-function Team() {
-  return <h1>Team Page</h1>;
-}
-
-function Login() {
-  return <h1>Login Page</h1>;
 }
 
 export default App;
